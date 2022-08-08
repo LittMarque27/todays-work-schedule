@@ -26,14 +26,20 @@ textarea {
   height: 80px;
 }
 
+/* Transparent input */
+.description div input {
+  background-color: transparent;
+}
+
 .time-block {
   text-align: center;
   border-radius: 15px;
 }
 
+/* Added pixel to display border */
 .row {
-  /* white-space: pre-wrap; */
-  height: 80px;
+  white-space: pre-wrap;
+  height: 81px;
   border-top: 1px solid white;
 }
 
@@ -43,6 +49,7 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
+/* leveraged starter code for MomentJS comparison loop */
 .past {
   background-color: #d3d3d3;
   color: white;
